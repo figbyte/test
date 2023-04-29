@@ -14,6 +14,9 @@ export default function Home() {
         <Header title="hola!" />
         <p className="description">
           Get started by editing <code>pages/index.js</code>
+
+          <input type="ss" >
+          </input>
         </p>
       </main>
 

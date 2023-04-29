@@ -1,8 +1,16 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import { useState } from 'react'
 
 export default function Home() {
+  const [name, setName] = useState()
+
+
+  const handleInput = (e) => {
+    setName(e.target.value)
+  }
+
   return (
     <div className="container">
       <Head>
@@ -12,12 +20,14 @@ export default function Home() {
 
       <main>
         <Header title="hola!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
 
-          <input type="ss" >
-          </input>
-        </p>
+        <div>
+          Masukan nama anda <input type="text" onChange={handleInput} />
+
+        </div>
+
+        Hello nama saya adalah {name}
+
       </main>
 
       <Footer />

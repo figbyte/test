@@ -42,7 +42,7 @@ export default function Home() {
 
         </main>
       </div>
-<img src="https://media.tenor.com/cKy0WOEi6pgAAAAC/rotating-banana-meme-rotating-banana.gif" alt="My GIF" width={400} height={300} />
+<img src="https://media.tenor.com/N_LkR7zVT74AAAAC/wtf.gif" alt="My GIF" width={400} height={300} />
    
 
 

@@ -12,12 +12,7 @@ body {
 .my-div {
   border: 30px solid black;
 }
-<div className="my-container">
-  <div>Object 1</div>
-  <div>Object 2</div>
-  <div>Object 3</div>
-</div>
-main {
+
   padding: 5rem 0;
   flex: 1;
   display: flex;
@@ -32,7 +27,7 @@ main {
 }
 
 code {
-  background: #fafafa;
+  background: #000000;
   border-radius: 5px;
   padding: 0.75rem;
   font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
